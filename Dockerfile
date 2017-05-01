@@ -21,3 +21,10 @@ ENV COMPOSER_ALLOW_SUPERUSER 1
 # Install phpunit
 RUN curl --silent --show-error --location --output /usr/local/bin/phpunit https://phar.phpunit.de/phpunit-5.7.9.phar && \
   chmod +x /usr/local/bin/phpunit
+
+# install nodejs and npm
+RUN apt-get install nodejs
+RUN apt-get install npm
+
+# install npm packages
+RUN npm install gulp

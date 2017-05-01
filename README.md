@@ -15,3 +15,7 @@ MySQL (user: root, blank password)
 composer
 
 phpunit
+
+nodejs (npm included)
+
+gulp
