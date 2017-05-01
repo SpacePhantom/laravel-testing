@@ -27,4 +27,4 @@ RUN apt-get install -y nodejs
 RUN apt-get install -y npm
 
 # install npm packages
-RUN npm install gulp
+RUN npm install -g gulp
