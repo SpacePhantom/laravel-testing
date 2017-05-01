@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # Install basics
 RUN apt-get update
-RUN apt-get install -y curl git
+RUN apt-get install -y curl git ftp
 
 # Install MySQL
 RUN apt-get install -y mysql-server
