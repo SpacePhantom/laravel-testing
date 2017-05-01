@@ -24,6 +24,7 @@ RUN curl --silent --show-error --location --output /usr/local/bin/phpunit https:
 
 # install nodejs and npm
 RUN apt-get install -y nodejs
+RUN ln -s /usr/bin/nodejs /usr/bin/node
 RUN apt-get install -y npm
 
 # install npm packages
